@@ -1,0 +1,15 @@
+# SpringBootProject-ValidationChecking-MethodTypeNotSupportException-PrintProperErrorMessage
+
+Project Descriptions :
+		       This project is Spring Boot Project. In this Project Validation I/O dependency is used.
+		       Here I have been created many operations of CURD APIs for fetch data from EmployeeEntity DataBase Table and inserting data Into EmployeeEntity DataBase Table.
+		       In this project there is Only One Table used i.e. EmployeeEntity table. 
+		       In this project all the exceptions are called by coustomerValidationCheckingException And UserException classes.
+		       In this project I have use MySQL Woekbench for Data Base and Testing purpose uses Postman Applications.
+
+	APIs Used :-
+		1. @RequestMapping(value = "/storeData",method = RequestMethod.POST) : All EmployeeEntity Details are store inside EmployeeEntity DataBase Table with some proper conditions checking by using this API call.
+
+		2. @RequestMapping(value = "/fetchAllData",method = RequestMethod.GET) : All records are show or fetch from EmployeeEntity Data Base Table with some proper conditions checking.
+		
+		** Note : If The given HttpRequestMethod will wrong as Input then it will throws HttpRequestMethodNotSupportedException by called Exception Class.
